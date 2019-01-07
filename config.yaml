@@ -1,0 +1,9 @@
+# For a more complete configuration see:
+# https://github.com/hacdias/webdav
+scope: /data
+address: 0.0.0.0
+port: 8801
+tls: false
+users:
+  - username: admin
+    password: admin
