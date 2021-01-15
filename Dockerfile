@@ -1,6 +1,6 @@
 FROM alpine:latest AS builder
 
-ENV PKGVER 3.0.0
+ENV PKGVER 4.0.0
 
 RUN mkdir -p /tmp/webdav \
     && cd /tmp/webdav \
